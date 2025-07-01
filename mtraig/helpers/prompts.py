@@ -47,4 +47,55 @@ Claim:
 {claim}
 
 Evaluation Form (scores ONLY):
-- Faithfulness:''' 
+- Faithfulness:'''
+
+# ------------------------------------------------------------------------------
+# ② COARSE‑LEVEL MITIGATION PROMPT
+# ------------------------------------------------------------------------------
+
+MTRAIG_MITIGATION_PROMPT_TEMPLATE = """MT-RAIG Mitigation Task
+
+### Role
+You are a fact-correcting assistant that corrects answers to ensure they are perfectly faithful to the table data.
+
+### Input
+- A **table** of data
+- A **question** about that table
+- The model-generated **answer**
+- A list of **false claims** that were identified in the answer
+
+### Task
+Rewrite the answer to address the false claims while ensuring the response is:
+1. Completely factual and grounded only in the table
+2. Directly answers the question
+3. Does not include any information that cannot be verified in the table
+
+### Output Format (STRICT)
+Return **only** a JSON object in this exact shape—no extra text, comments, or markdown:
+
+```json
+{{
+  "answer": "<your rewritten answer as a single text block>"
+}}
+```
+
+### Table
+
+{table}
+
+### Question
+
+{question}
+
+### Original Answer
+
+{model_answer}
+
+### False Claims to Address
+
+{false_claims}
+
+Please output the corrected answer as JSON:
+"""
+
+
