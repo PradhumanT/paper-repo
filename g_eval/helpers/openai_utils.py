@@ -5,10 +5,11 @@ OpenAI structured output call utility for G-Eval detection.
 import logging
 import time
 from openai import OpenAI
-from typing import Type
+from typing import Type, Optional
 from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
+from official_repo.g_eval.helpers.schemas import AnswerRewrite
 
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
@@ -49,4 +50,31 @@ def call_openai_structured(
                 f"Attempt {attempt}/{max_retries} failed: {e}. Retrying in {wait}s…"
             )
             time.sleep(wait)
-    raise RuntimeError(f"OpenAI structured call failed after {max_retries} retries.") 
+    raise RuntimeError(f"OpenAI structured call failed after {max_retries} retries.")
+
+def call_openai_mitigation(prompt: str, model: str = "gpt-4o", temperature: float = 0.0, max_retries: int = 20) -> Optional[str]:
+    """
+    Calls OpenAI for mitigation and returns the revised answer string, or None if failed.
+    """
+    api_key = os.getenv("OPENAI_API_KEY")
+    client = OpenAI(api_key=api_key)
+    messages = [
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": prompt}
+    ]
+    for attempt in range(1, max_retries + 1):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=temperature,
+                response_format={"type": "json_object"}
+            )
+            content = response.choices[0].message.content
+            parsed = AnswerRewrite.model_validate_json(content)
+            return parsed.answer.strip()
+        except Exception as e:
+            wait = 2 ** attempt
+            logging.warning(f"[Retry {attempt}/{max_retries}] OpenAI error: {e} — waiting {wait}s")
+            time.sleep(wait)
+    return None 

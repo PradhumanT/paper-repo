@@ -8,6 +8,7 @@ import json
 import logging
 import pandas as pd
 from typing import Optional
+import argparse
 
 from official_repo.g_eval.helpers.prompts import FAITH_PROMPT_TEMPLATE, COMP_PROMPT_TEMPLATE
 from official_repo.g_eval.helpers.schemas import FaithfulnessScore, CompletenessScore
@@ -111,6 +112,11 @@ def evaluate(
     return instance_r
 
 if __name__ == "__main__":
-    # Example usage:
-    # evaluate("fetaqa", model_name="gpt-4o-mini", mode="faithfulness")
-    pass 
+    parser = argparse.ArgumentParser(description="Run G-Eval detection pipeline.")
+    parser.add_argument('--dataset', type=str, default='fetaqa', help="Dataset name (fetaqa or qtsumm)")
+    parser.add_argument('--model', type=str, default='gpt-4o-mini', help="Model name (e.g., gpt-4o-mini)")
+    parser.add_argument('--mode', type=str, default='faithfulness', choices=['faithfulness', 'completeness'], help="Evaluation mode")
+    args = parser.parse_args()
+
+    print(f"Running detection for dataset={args.dataset}, model={args.model}, mode={args.mode}")
+    evaluate(args.dataset, model_name=args.model, mode=args.mode) 

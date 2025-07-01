@@ -9,3 +9,6 @@ class FaithfulnessScore(BaseModel):
 
 class CompletenessScore(BaseModel):
     completeness: int  # integer 1‑5 
+
+class AnswerRewrite(BaseModel):
+    answer: str 

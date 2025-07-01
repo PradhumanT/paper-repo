@@ -46,4 +46,138 @@ Question:
 
 Answer:
 {gen_answer}
-''' 
+'''
+
+MITIGATE_BOTH_PROMPT_TEMPLATE = """Mitigation Task: Improve Faithfulness and Completeness
+
+### Role
+You are a helpful assistant that revises long-form answers grounded in tabular data.
+
+### Input
+- A **table** of data
+- A **question** about that table
+- A model-generated **answer**
+- Human-assigned **faithfulness score** and **completeness score** (each 1–4)
+
+**Faithfulness score**: {faith_score}  
+**Completeness score**: {comp_score}
+
+### Task
+The answer needs improvement in both **faithfulness** and **completeness**.  
+Rewrite it so that it:
+- Contains **only factual content** from the table (faithful)
+- **Completely addresses** all relevant aspects of the question (comprehensive)
+- Avoids any **unsupported** or **missing** information
+
+### Output Format (STRICT)
+Return **only** a JSON object in this exact shape—no extra text, comments, or markdown:
+
+```json
+{{
+  "answer": "<your rewritten answer as a single text block>"
+}}
+```
+
+### Table
+
+{table}
+
+### Question
+
+{question}
+
+### Original Answer
+
+{model_answer}
+
+Please output the corrected answer as JSON:
+"""
+
+MITIGATE_FAITH_ONLY_PROMPT_TEMPLATE = """Mitigation Task: Improve Faithfulness
+
+### Role
+You are a fact-checking assistant tasked with correcting factual inaccuracies.
+
+### Input
+* A **table** of data
+* A **question** about that table
+* A model-generated **answer**
+* Human-assigned **faithfulness score** (1–4)
+
+**Faithfulness score**: {faith_score}
+
+### Task
+The answer contains factual errors or ungrounded content.
+Rewrite it to be:
+* Fully factual
+* Strictly grounded in the table
+* Directly answering the question
+* Without introducing unsupported content
+
+### Output Format (STRICT)
+Return only a JSON object in this exact shape—no extra text, comments, or markdown:
+
+```json
+{{
+  "answer": "<your rewritten answer as a single text block>"
+}}
+```
+
+### Table
+
+{table}
+
+### Question
+
+{question}
+
+### Original Answer
+
+{model_answer}
+
+Please output the corrected answer as JSON:
+"""
+
+MITIGATE_COMP_ONLY_PROMPT_TEMPLATE = """Mitigation Task: Improve Completeness
+
+### Role
+You are a helpful assistant tasked with revising incomplete answers.
+
+### Input
+* A **table** of data
+* A **question** about that table
+* A model-generated **answer**
+* Human-assigned **completeness score** (1–4)
+
+**Completeness score**: {comp_score}
+
+### Task
+The answer is missing key details or only partially addresses the question.
+Rewrite it to:
+* Include **all relevant facts** from the table needed to fully answer the question
+* Be **comprehensive** without being verbose
+* Avoid irrelevant details not related to the question
+
+### Output Format (STRICT)
+Return only a JSON object in this exact shape—no extra text, comments, or markdown:
+
+```json
+{{
+  "answer": "<your rewritten answer as a single text block>"
+}}
+```
+
+### Table
+
+{table}
+
+### Question
+
+{question}
+
+### Original Answer
+
+{model_answer}
+
+Please output the corrected answer as JSON:
+""" 
