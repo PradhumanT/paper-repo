@@ -19,7 +19,7 @@ def count_label_frequencies(csv_file_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Count label frequencies in a mitigation eval CSV file.")
-    parser.add_argument('--csv_file', type=str, required=True, help='Path to the CSV file (relative to official_repo)')
+    parser.add_argument('--csv_file', type=str, default="human_mitigation_eval/gpt-4o_fetaqa.csv", help='Path to the CSV file (relative to official_repo)')
     args = parser.parse_args()
     repo_root = Path(__file__).parent.parent
     csv_path = repo_root / args.csv_file

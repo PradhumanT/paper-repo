@@ -46,6 +46,6 @@ def run_analysis_for_model(model_name: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="MTRAIG analyze fives and nonfives for a model.")
-    parser.add_argument('--model_name', type=str, required=True, help='Model name (e.g., gpt-4o)')
+    parser.add_argument('--model_name', type=str, default="gpt-4o-mini", help='Model name (e.g., gpt-4o-mini)')
     args = parser.parse_args()
     run_analysis_for_model(args.model_name) 

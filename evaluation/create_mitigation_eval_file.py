@@ -66,8 +66,8 @@ def create_mitigation_eval_file(model_name: str, dataset: str, num_points: int =
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create mitigation eval file (JSON and CSV) for human eval.")
-    parser.add_argument('--model_name', type=str, required=True, help='Model name (e.g., gpt-4o-mini)')
-    parser.add_argument('--dataset', type=str, required=True, help='Dataset name (e.g., fetaqa or qtsumm)')
+    parser.add_argument('--model_name', type=str, default="gpt-4o-mini", help='Model name (e.g., gpt-4o-mini)')
+    parser.add_argument('--dataset', type=str, default="fetaqa", help='Dataset name (e.g., fetaqa or qtsumm)')
     parser.add_argument('--num_points', type=int, default=50, help='Number of examples to include (default: 50)')
     args = parser.parse_args()
     create_mitigation_eval_file(args.model_name, args.dataset, args.num_points) 

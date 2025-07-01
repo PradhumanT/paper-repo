@@ -39,7 +39,7 @@ def compute_factual_claim_percentages(model: str, dataset: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Compute factual claim percentages for MTRAIG outputs.")
-    parser.add_argument('--model', type=str, required=True, help='Model name (e.g., gpt-4o-mini)')
-    parser.add_argument('--dataset', type=str, required=True, help='Dataset name (e.g., fetaqa or qtsumm)')
+    parser.add_argument('--model', type=str, default="gpt-4o-mini", help='Model name (e.g., gpt-4o-mini)')
+    parser.add_argument('--dataset', type=str, default="fetaqa", help='Dataset name (e.g., fetaqa or qtsumm)')
     args = parser.parse_args()
     compute_factual_claim_percentages(args.model, args.dataset) 

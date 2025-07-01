@@ -45,7 +45,7 @@ def analyze_faithfulness_completeness_changes(model: str, dataset: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Analyze faithfulness and completeness changes.")
-    parser.add_argument('--model', type=str, required=True, help='Model name (e.g., gpt-4o)')
-    parser.add_argument('--dataset', type=str, required=True, help='Dataset name (e.g., fetaqa or qtsumm)')
+    parser.add_argument('--model', type=str, default="gpt-4o-mini", help='Model name (e.g., gpt-4o)')
+    parser.add_argument('--dataset', type=str, default="fetaqa", help='Dataset name (e.g., fetaqa or qtsumm)')
     args = parser.parse_args()
     analyze_faithfulness_completeness_changes(args.model, args.dataset) 
