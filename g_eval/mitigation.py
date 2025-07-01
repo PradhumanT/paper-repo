@@ -9,9 +9,9 @@ from pathlib import Path
 from typing import List, Dict, Optional
 from dotenv import load_dotenv
 
-from official_repo.g_eval.helpers.mitigation_utils import build_mitigation_prompt, processed_ids
-from official_repo.g_eval.helpers.schemas import AnswerRewrite
-from official_repo.g_eval.helpers.openai_utils import call_openai_mitigation
+from g_eval.helpers.mitigation_utils import build_mitigation_prompt, processed_ids
+from g_eval.helpers.schemas import AnswerRewrite
+from g_eval.helpers.openai_utils import call_openai_mitigation
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 

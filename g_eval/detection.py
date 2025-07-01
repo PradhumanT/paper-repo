@@ -10,10 +10,10 @@ import pandas as pd
 from typing import Optional
 import argparse
 
-from official_repo.g_eval.helpers.prompts import FAITH_PROMPT_TEMPLATE, COMP_PROMPT_TEMPLATE
-from official_repo.g_eval.helpers.schemas import FaithfulnessScore, CompletenessScore
-from official_repo.g_eval.helpers.openai_utils import call_openai_structured
-from official_repo.g_eval.helpers.correlation import calculate_correlation
+from g_eval.helpers.prompts import FAITH_PROMPT_TEMPLATE, COMP_PROMPT_TEMPLATE
+from g_eval.helpers.schemas import FaithfulnessScore, CompletenessScore
+from g_eval.helpers.openai_utils import call_openai_structured
+from g_eval.helpers.correlation import calculate_correlation
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 

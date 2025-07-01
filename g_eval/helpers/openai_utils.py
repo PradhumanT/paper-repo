@@ -9,7 +9,7 @@ from typing import Type, Optional
 from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
-from official_repo.g_eval.helpers.schemas import AnswerRewrite
+from g_eval.helpers.schemas import AnswerRewrite
 
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
