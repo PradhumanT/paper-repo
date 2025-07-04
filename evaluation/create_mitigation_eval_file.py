@@ -14,7 +14,7 @@ def create_mitigation_eval_file(model_name: str, dataset: str, num_points: int =
     lftqa_file  = repo_root / "g_eval"  / "mitigation_outputs" / "normal" / f"{model_name}_{dataset}.jsonl"
     mtraig_file = repo_root / "mtraig" / "mitigation_outputs" / f"{model_name}_{dataset}.jsonl"
     # output dir & paths
-    out_dir     = repo_root / "human_mitigation_eval"
+    out_dir     = repo_root / "human_mitigation_eval/raw"
     out_dir.mkdir(parents=True, exist_ok=True)
     json_path   = out_dir / f"{model_name}_{dataset}.json"
     csv_path    = out_dir / f"{model_name}_{dataset}.csv"

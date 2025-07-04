@@ -10,3 +10,4 @@ tqdm==4.67.1
 nltk==3.9.1
 requests==2.32.3
 matplotlib-inline==0.1.7
+krippendorff==0.8.1
