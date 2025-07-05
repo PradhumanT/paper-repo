@@ -1,5 +1,5 @@
-original_idx,question,table,ideal_answer,original_answer,lftqa_mitigated_output,mtraig_mitigated_output
-4,What records did Felipe França Silva achieve on 7 December 2014?,"Table Title: Felipe França Silva - Records
+example_id,original_model,original_idx,question,table,ideal_answer,original_answer,lftqa_mitigated_output,mtraig_mitigated_output
+fetaqa_4,Yi-1.5-34B,4,What records did Felipe França Silva achieve on 7 December 2014?,"Table Title: Felipe França Silva - Records
 Table:
 Race | Time | Date | Record | Pool
 50 m breaststroke | 26.76 | July 29, 2009 | Americas | Long Course
@@ -10,7 +10,7 @@ Race | Time | Date | Record | Pool
 4 × 100 m medley | 3:21.14 | December 7, 2014 | South American | Short Course
 4x50 m mixed medley | 1:37.26 | December 4, 2014 | South American | Short Course
 ","On 7 December, Felipe França Silva scored two records, one in the 50 meter breaststroke Americas record, with a time of 25.63, and the other in 4 × 100 meter medley South American record, with a time of 3:21.14.","On December 7, 2014, Felipe França Silva achieved three records: 50m breaststroke with a time of 25.63, 100m breaststroke with a time of 56.25, and 4 x 100m medley with a time of 3:21.14.","On December 7, 2014, Felipe França Silva achieved two records: the 50 m breaststroke with a time of 25.63, which was an Americas record in a short course pool, and the 4 × 100 m medley with a time of 3:21.14, which was a South American record in a short course pool.","On December 7, 2014, Felipe França Silva achieved a record in the 50 m breaststroke with a time of 25.63 and in the 4 × 100 m medley with a time of 3:21.14."
-6,How many matches and goals did Mitsunori Yoshida have as a player for Yamaha Motors?,"Table Title: Mitsunori Yoshida - Club statistics
+fetaqa_6,Yi-1.5-34B,6,How many matches and goals did Mitsunori Yoshida have as a player for Yamaha Motors?,"Table Title: Mitsunori Yoshida - Club statistics
 Table:
 Club performance | Club performance | Club performance | League | League | Cup | Cup | League Cup | League Cup | Total | Total
 Season | Club | League | Apps | Goals | Apps | Goals | Apps | Goals | Apps | Goals
@@ -34,7 +34,7 @@ Japan | Japan | Japan | League | League | Emperor's Cup | Emperor's Cup | J.Leag
 Country | Japan | Japan | 275 | 35 | 1 | 0 | 7 | 1 | 283 | 36
 Total | Total | Total | 275 | 35 | 1 | 0 | 7 | 1 | 283 | 36
 ",Mitsunori Yoshida played a total 275 league matches and scored 35 goals for Yamaha Motors.,Mitsunori Yoshida played in a total of 275 matches and scored 35 goals as a player for Yamaha Motors.,"Mitsunori Yoshida played a total of 271 matches and scored 35 goals for Yamaha Motors. This includes 263 league appearances with 35 goals, 1 appearance in the Emperor's Cup with no goals, and 7 appearances in the J.League Cup with 1 goal.",Mitsunori Yoshida played in a total of 246 matches and scored 35 goals as a player for Yamaha Motors.
-13,What Hindi films was Mamta Kularni a part of in 1993?,"Table Title: Mamta Kulkarni - Filmography
+fetaqa_13,Yi-1.5-34B,13,What Hindi films was Mamta Kularni a part of in 1993?,"Table Title: Mamta Kulkarni - Filmography
 Table:
 Year | Title | Language | Role | Other notes
 2003 | Shesh Bongsodar (Last Descendant) | Bangladeshi film in Bengali language | Antara | This first and last Bengali film in her life.
@@ -70,7 +70,7 @@ Year | Title | Language | Role | Other notes
 1992 | Tirangaa | Hindi | Sandhya | -
 1991 | Nanbargal | Tamil | Priya | -
 ","Mamta Kulkarni was part of several Hindi films in 1993: Ashaant, Aashiq Awara, Bhookamp, and Waqt Hamara Hai.","Mamta Kulkarni was a part of ""Aashiq Awara,"" ""Ashaant,"" and ""Mera Dil Tere Liye"" Hindi films in 1993.","In 1993, Mamta Kulkarni was a part of the following Hindi films: 'Waqt Hamara Hai', 'Bhookamp', 'Aashiq Awara', and 'Ashaant'.","Mamta Kulkarni was a part of the Hindi films 'Aashiq Awara,' 'Ashaant,' 'Waqt Hamara Hai,' and 'Bhookamp' in 1993."
-27,What films did Mol appear in between 2000 and 2002?,"Table Title: Gretchen Mol - Television
+fetaqa_27,Yi-1.5-34B,27,What films did Mol appear in between 2000 and 2002?,"Table Title: Gretchen Mol - Television
 Table:
 Year | Title | Role | Notes
 1996 | Dead Man's Walk | Maggie | TV miniseries
@@ -89,7 +89,7 @@ Year | Title | Role | Notes
 2018 | Nightflyers | Dr. Agatha Matheson | Main role
 2018 | Seven Seconds | Sam Hennessy | Recurring Role
 ","Gretchen Mol appeared in two TV films: Picnic in 2000, in the role of Madge Owens, and in The Magnificent Ambersons as Lucy Morgan in 2002.","Between 2000 and 2002, Gretchen Mol appeared in the films ""Picnic,"" ""The Magnificent Ambersons,"" ""Girls Club,"" and a TV short titled ""Freshening Up.""","Between 2000 and 2002, Gretchen Mol appeared in the TV films ""Picnic"" (2000) and ""The Magnificent Ambersons"" (2002).","Between 2000 and 2002, Gretchen Mol appeared in the TV films 'Picnic' (2000) and 'The Magnificent Ambersons' (2002), as well as the TV short 'Freshening Up' (2002)."
-32,"How many yards, touchdowns, and games did Barry Sanders complete in 1998?","Table Title: Barry Sanders - 1988 game logs
+fetaqa_32,Yi-1.5-34B,32,"How many yards, touchdowns, and games did Barry Sanders complete in 1998?","Table Title: Barry Sanders - 1988 game logs
 Table:
 G | Opponent | Att | Yds | Avg | TD
 1 | Miami (OH) | 18 | 178 | 9.9 | 2
@@ -106,7 +106,7 @@ G | Opponent | Att | Yds | Avg | TD
 12 | Wyoming | 29 | 222 | 7.7 | 5
 Totals | Totals | 373 | 2,850 | 7.6 | 42
 ","In 1988, Barry Sanders rushed for a total of 2,850 yards and scored 42 touchdowns over 12 games.","In 1998, Barry Sanders completed 2,850 yards, 42 touchdowns, and 12 games.","In 1988, Barry Sanders completed 2,850 yards, 42 touchdowns, and 12 games.","The table provides data for Barry Sanders' 1988 season, not 1998. In 1988, Barry Sanders completed 2,850 yards, 42 touchdowns, and played in 12 games."
-37,"What does Ogden Avenue intersect in Chicago, Western Springs and Lisle?","Table Title: Ogden Avenue - Major intersections
+fetaqa_37,Yi-1.5-34B,37,"What does Ogden Avenue intersect in Chicago, Western Springs and Lisle?","Table Title: Ogden Avenue - Major intersections
 Table:
 County | Location | mi | km | Destinations | Notes
 Kendall | Oswego | - | - | US 34 west | Continuation beyond Ogden Falls Boulevard
@@ -125,7 +125,7 @@ Cook | Chicago | 37.2 | 59.9 | I-90 / I-94 west (Kennedy Expressway) | Westbound
 Cook | Chicago | 37.5 | 60.4 | West Chestnut Street | Eastern terminus
 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access
 ","The Ogden Avenue intersects Interstate 90/Interstate 94/Kennedy Expressway in Chicago, Interstate 294/Tri-State Tollway in Western Springs, and Interstate 355 in Lisle.","Ogden Avenue intersects West Chestnut Street in Chicago, IL 53 (Lincoln Avenue) in Lisle, and IL 59 in Western Springs.","In Chicago, Ogden Avenue intersects I-90 / I-94 west (Kennedy Expressway) and West Chestnut Street. In Western Springs, Ogden Avenue intersects I-294 (Tri-State Tollway) at the Hinsdale–Western Springs line. In Lisle, Ogden Avenue intersects IL 53 (Lincoln Avenue) and I-88 (Ronald Reagan Memorial Tollway) / I-355 (Veterans Memorial Tollway).","Ogden Avenue intersects West Chestnut Street in Chicago, IL 53 (Lincoln Avenue) in Lisle, and I-294 (Tri-State Tollway) at the Hinsdale–Western Springs line."
-40,When were the first and most recent destinations built?,"Table Title: List of National Natural Landmarks in Michigan - National Natural Landmarks
+fetaqa_40,Yi-1.5-34B,40,When were the first and most recent destinations built?,"Table Title: List of National Natural Landmarks in Michigan - National Natural Landmarks
 Table:
 Name | Date | Location | County | Ownership | Description
 Black Spruce Bog Natural Area | 1976 | 42°18′58.00″N 84°11′46.49″W / 42.3161111°N 84.1962472°W | Jackson | State | A boreal bog forest with a stand of black spruce; illustrates the last stage of evolution in a sphagnum bog ecosystem.
@@ -141,7 +141,7 @@ Tobico Marsh | 1976 | 43°41′51″N 83°56′11″W / 43.69750°N 83.93639°W 
 Toumey Woodlot | 1976 | 42°42′13.428″N 84°27′54.36″W / 42.70373000°N 84.4651000°W | Ingham | State | One of southern Michigan's last virgin beech-maple forests; located on the Michigan State University campus and used for ecological research. Managed by Michigan State University.
 Warren Woods Natural Area | 1967 | 41°50′00″N 86°37′20″W / 41.83333°N 86.62222°W | Berrien | Private | One of southern Michigan's last virgin beech-maple forests. Also includes sizable individual specimens of beech, maple and sycamore.
 ","The first designation, Warren Woods State Park was made in 1967 while the most recent, the Porcupine Mountains was made in 1984.","The first destination to be built was Warren Woods Natural Area in 1967, and the most recent destination to be built was Strangmoor Bog in 1973.",The first National Natural Landmark designated in Michigan was Warren Woods Natural Area in 1967. The most recent designation was the Porcupine Mountains in 1984.,"The first destination to be designated as a National Natural Landmark in Michigan was Warren Woods Natural Area in 1967, and the most recent destination was the Porcupine Mountains in 1984."
-45,"How long did Georges Boucher play in the NHL, and how did he perform?","Table Title: Georges Boucher - Career statistics
+fetaqa_45,Yi-1.5-34B,45,"How long did Georges Boucher play in the NHL, and how did he perform?","Table Title: Georges Boucher - Career statistics
 Table:
 - | - | - | Regular season | Regular season | Regular season | Regular season | Regular season | Playoffs | Playoffs | Playoffs | Playoffs | Playoffs | - | -
 Season | Team | League | - | GP | G | A | Pts | PIM | - | GP | G | A | Pts | PIM
@@ -175,7 +175,7 @@ NHA totals | NHA totals | NHA totals | - | 37 | 19 | 6 | 25 | 89 | - | 2 | 1 | 0
 NHL totals | NHL totals | NHL totals | - | 449 | 117 | 87 | 204 | 838 | - | 28 | 5 | 3 | 8 | 88
 St-Cup totals | St-Cup totals | St-Cup totals | - | — | — | — | — | — | - | 16 | 6 | 1 | 7 | 17
 ","Georges Boucher played in the NHL from 1917 to 1932, scoring 117 goals and 87 assists in 449 games.","Georges Boucher played in the NHL from 1917 to 1933, amassing 117 goals, 87 assists, and 204 points across 449 games, while also recording 88 penalty minutes in 28 playoff games and winning 7 Stanley Cups.","Georges Boucher played in the NHL from the 1917–18 season to the 1931–32 season. During his NHL career, he played a total of 449 regular season games, scoring 117 goals and 87 assists for a total of 204 points. He also accumulated 838 penalty minutes. In the playoffs, Boucher played 28 games, scoring 5 goals and 3 assists for a total of 8 points, with 88 penalty minutes. The data does not indicate the number of Stanley Cups he won.","Georges Boucher played in the NHL from 1917 to 1933, amassing 117 goals, 87 assists, and 204 points across 449 games, while also recording 88 penalty minutes in 28 playoff games."
-49,How well did the singles from 1927's album 1927 do on the Australian chart?,"Table Title: 1927 (band) - Singles
+fetaqa_49,Yi-1.5-34B,49,How well did the singles from 1927's album 1927 do on the Australian chart?,"Table Title: 1927 (band) - Singles
 Table:
 Year | Title | Peak chart positions | Peak chart positions | Peak chart positions | Album
 Year | Title | AUS | UK | US | Album
@@ -192,7 +192,7 @@ Year | Title | AUS | UK | US | Album
 2013 | ""The Story Never Ends"" | — | — | — | Generation-i
 ""—"" denotes releases that did not chart or were not released in that country. | ""—"" denotes releases that did not chart or were not released in that country. | ""—"" denotes releases that did not chart or were not released in that country. | ""—"" denotes releases that did not chart or were not released in that country. | ""—"" denotes releases that did not chart or were not released in that country. | ""—"" denotes releases that did not chart or were not released in that country.
 ","1927's lead single, ""Scars"", reached the Top 50 but the second single, ""It Ain't Love"" (1993), was less successful, not reaching the Top 100.","The singles from 1927's album 1927 performed moderately well on the Australian chart, with peak positions ranging from 46 to 123.","The singles from 1927's album '1927' had the following peak positions on the Australian chart: 'Scars' reached position 46 in 1992, and 'It Ain't Love' reached position 123 in 1993.","The singles from 1927's album 1927 that charted on the Australian chart were ""Scars,"" which peaked at position 46, and ""It Ain't Love,"" which peaked at position 123."
-54,Did The Knife win any Album of the Year awards?,"Table Title: The Knife - Awards
+fetaqa_54,Yi-1.5-34B,54,Did The Knife win any Album of the Year awards?,"Table Title: The Knife - Awards
 Table:
 Year | Awards | Category
 2003 | Nöjesguiden's Stockholm Award | Music Category
@@ -216,7 +216,7 @@ Year | Awards | Category
 2007 | SAMA | Album of the Year for Silent Shout
 2013 | Nordic Music Prize | Best Nordic Album of the Year for Shaking the Habitual
 ","In 2006, The Knife won the Pitchfork Media Album of the Year award and in 2007, The Knife won the SAMA Album of the Year for Silent Shout award.","The Knife won awards for their song ""Heartbeats"" in 2003 at the Swedish Hit Music Awards for Best Video and in 2004 at the Scandinavian Alternative Music Awards (SAMA) for Song of the Year.","Yes, The Knife won Album of the Year awards. In 2006, they won Album of the Year from Pitchfork Media. In 2007, they won Album of the Year for 'Silent Shout' at the Scandinavian Alternative Music Awards (SAMA).",The Knife won the Album of the Year award in 2006 from Pitchfork Media and in 2007 at the Scandinavian Alternative Music Awards (SAMA) for their album 'Silent Shout.'
-56,How and when did the Michigan Wolverines men's basketball team break its longest losing streak?,"Table Title: 1917–18 Michigan Wolverines men's basketball team - Schedule
+fetaqa_56,Yi-1.5-34B,56,How and when did the Michigan Wolverines men's basketball team break its longest losing streak?,"Table Title: 1917–18 Michigan Wolverines men's basketball team - Schedule
 Table:
 Date | Opponent | Score | Result | Location
 December 15, 1917 | Case | 27–25 | Loss | Cleveland, OH
@@ -238,7 +238,7 @@ March 1, 1918 | Chicago | 22–15 | Loss | Waterman Gymnasium, Ann Arbor, MI
 March 2, 1918 | Michigan Agricultural College | 31–25 | Win | Michigan State University Armory, East Lansing, MI
 March 9, 1918 | Ohio State | 34–27 | Loss | Waterman Gymnasium, Ann Arbor, MI
 ","The Michigan Wolverines men's basketball team broke its losing streak with a 42–8 victory over Kalamazoo College on February 13, 1918.","The Michigan Wolverines men's basketball team broke its longest losing streak on February 22, 1918, against Indiana with a score of 21-20 at Men's Gymnasium, Bloomington, IN.","The Michigan Wolverines men's basketball team broke its longest losing streak on March 2, 1918, against Michigan Agricultural College with a score of 31-25 at Michigan State University Armory, East Lansing, MI. The losing streak lasted for eight games, starting with a loss to Indiana on January 18, 1918, and ending with a loss to Ohio State on March 9, 1918.","The Michigan Wolverines men's basketball team broke its longest losing streak on February 13, 1918, against Kalamazoo College with a score of 42-8 at Waterman Gymnasium, Ann Arbor, MI."
-65,Did Maja Neuenschwander win any marathons?,"Table Title: Maja Neuenschwander - Results
+fetaqa_65,Yi-1.5-34B,65,Did Maja Neuenschwander win any marathons?,"Table Title: Maja Neuenschwander - Results
 Table:
 Year | Competition | Venue | Position | Notes
 2001 | European Cross Country Championships | Thun, Switzerland | 69th | Cross country
@@ -250,7 +250,7 @@ Year | Competition | Venue | Position | Notes
 2015 | Vienna Marathon | Vienna, Austria | 1st | Marathon
 2015 | Berlin Marathon | Berlin, Germany | 6th | Marathon
 ",Maja Neuenschwander won the marathon at the 2015 Vienna Marathon.,"Yes, Maja Neuenschwander won marathons at the Vienna Marathon and the Hamburg Marathon.","Yes, Maja Neuenschwander won the Vienna Marathon in 2015.","Yes, Maja Neuenschwander won the Vienna Marathon."
-69,How much does the USS Rasher and USS Archerfish weight respectively?,"Table Title: List of most successful American submarines in World War II - Total tonnage
+fetaqa_69,Yi-1.5-34B,69,How much does the USS Rasher and USS Archerfish weight respectively?,"Table Title: List of most successful American submarines in World War II - Total tonnage
 Table:
 Boat | Type | Total tonnage | Ref(s)
 Tang | Balao-class submarine | 116,454 | -
@@ -279,7 +279,7 @@ Wahoo | Gato-class submarine | 60,038 | -
 Sunfish | Gato-class submarine | 59,815 | -
 Archerfish | Balao-class submarine | 59,800 | -
 ","The USS Rasher weighs 99,901 tons and the USS Archerfish is 59,800 tons.","The USS Rasher and USS Archerfish weigh 99,901 and 59,800 tons respectively.","The USS Rasher and USS Archerfish have total tonnages of 99,901 and 59,800 tons, respectively.","The USS Rasher and USS Archerfish have total tonnages of 99,901 and 59,800 respectively."
-75,Who finished third in the men's 1500 metre freestyle at the 2008 Summer Olympics?,"Table Title: Swimming at the 2008 Summer Olympics – Men's 1500 metre freestyle - Final
+fetaqa_75,Yi-1.5-34B,75,Who finished third in the men's 1500 metre freestyle at the 2008 Summer Olympics?,"Table Title: Swimming at the 2008 Summer Olympics – Men's 1500 metre freestyle - Final
 Table:
 Rank | Lane | Name | Nationality | Time | Notes
 - | 7 | Oussama Mellouli | Tunisia | 14:40.84 | AF
@@ -291,7 +291,7 @@ Rank | Lane | Name | Nationality | Time | Notes
 7 | 6 | Zhang Lin | China | 14:55.20 | -
 8 | 1 | Sun Yang | China | 15:05.12 | -
 ",Canada's Ryan Cochrane finished in third with a time of 14:42.69 and won bronze.,Yuri Prilukov finished third in the men's 1500 metre freestyle at the 2008 Summer Olympics.,Ryan Cochrane finished third in the men's 1500 metre freestyle at the 2008 Summer Olympics with a time of 14:42.69.,Ryan Cochrane finished third in the men's 1500 metre freestyle at the 2008 Summer Olympics.
-78,What is followed after Harmonic Motion Vol.1?,"Table Title: Gifts from Enola - Discography
+fetaqa_78,Yi-1.5-34B,78,What is followed after Harmonic Motion Vol.1?,"Table Title: Gifts from Enola - Discography
 Table:
 Year | Title | Format | Label
 2006 | Loyal Eyes Betrayed the Mind | CD | Self-released
@@ -301,7 +301,7 @@ Year | Title | Format | Label
 2010 | Gifts from Enola | CD/LP | The Mylene Sheath
 2012 | A Healthy Fear | CD/LP | The Mylene Sheath
 ",Harmonic Motion Vol.1 was followed by a release of Loyal Eyes Betrayed the Mind by The Mylene Sheath in 2008.,"After ""Harmonic Motion Vol.1,"" the album ""Loyal Eyes Betrayed the Mind"" was released on 2 xLP format by The Mylene Sheath in 2008.","After 'Harmonic Motion Vol.1,' which was released in 2008, the next release was 'Loyal Eyes Betrayed the Mind' in the 2xLP format by The Mylene Sheath, also in 2008. This was followed by 'From Fathoms' in 2009, available in CD/2xLP format by The Mylene Sheath.","After ""Harmonic Motion Vol.1,"" the album ""From Fathoms"" was released in 2009 on CD/2xLP format by The Mylene Sheath."
-81,What was Brooks Ashmanskas role in his 2018 movie?,"Table Title: Brooks Ashmanskas - Theatre
+fetaqa_81,Yi-1.5-34B,81,What was Brooks Ashmanskas role in his 2018 movie?,"Table Title: Brooks Ashmanskas - Theatre
 Table:
 Year | Show | Role | Notes
 1995 | Songs for a New World | Man 2 | off-Broadway
@@ -337,7 +337,7 @@ Year | Show | Role | Notes
 2016 | The Prom | Barry Glickman | Alliance Theatre, August/September 2016
 2018 | The Prom | Barry Glickman | Broadway, September 2018 –
 ","In 2018, Brooks Ashmanskas starred as Barry Glickman in the Broadway`s The Prom.","Brooks Ashmanskas played the role of Barry Glickman in the 2018 movie ""The Prom.""","The table does not provide any information about Brooks Ashmanskas' roles in movies. It only lists his theatre roles, including his role as Barry Glickman in the 2018 Broadway production of 'The Prom.'","The table does not provide any information about Brooks Ashmanskas's roles in movies. It only lists his theatre roles, including his role as Barry Glickman in the 2018 Broadway production of 'The Prom.'"
-88,When has Kawasaki won the Superbike World Championship and with what champions?,"Table Title: List of Superbike World champions - Riders Championship
+fetaqa_88,Yi-1.5-34B,88,When has Kawasaki won the Superbike World Championship and with what champions?,"Table Title: List of Superbike World champions - Riders Championship
 Table:
 Season | Champion | Motorcycle | Wins | 2nd pl. | 3rd pl. | Team
 1988 | United States Fred Merkel | Honda RC30 | 2 | 2 | 1 | Rumi Honda
@@ -372,7 +372,7 @@ Season | Champion | Motorcycle | Wins | 2nd pl. | 3rd pl. | Team
 2017 | United Kingdom Jonathan Rea | Kawasaki ZX-10RR | 16 | 7 | 1 | Kawasaki Racing Team
 2018 | United Kingdom Jonathan Rea | Kawasaki ZX-10RR | 17 | 4 | 1 | Kawasaki Racing Team
 ","Kawasaki won the rider's Superbike World Championship in 1993 with Scott Russell, two decades later in 2013 with Tom Sykes and four times again in 2015, 2016, 2017 and 2018 with Jonathan Rea.","Kawasaki has won the Superbike World Championship in 1993 with Scott Russell, in 2003 with Neil Hodgson, and in 2005, 2007, and 2018 with Troy Corser, James Toseland, and Jonathan Rea, respectively.","Kawasaki has won the Superbike World Championship in 1993 with Scott Russell, in 2013 with Tom Sykes, and in 2015, 2016, 2017, and 2018 with Jonathan Rea.","Kawasaki has won the Superbike World Championship in 1993 with Scott Russell, in 2013 with Tom Sykes, and in 2015, 2016, 2017, and 2018 with Jonathan Rea."
-92,What awards and how many nominations did Unplugged (2016) receive from Anugerah Industri Muzik?,"Table Title: Unplugged (Siti Nurhaliza album) - Anugerah Industri Muzik
+fetaqa_92,Yi-1.5-34B,92,What awards and how many nominations did Unplugged (2016) receive from Anugerah Industri Muzik?,"Table Title: Unplugged (Siti Nurhaliza album) - Anugerah Industri Muzik
 Table:
 Year | Award | Recipients and nominees | Category | Result | Host country
 2016 | Anugerah Industri Muzik | ""Jaga Dia Untukku"" (Live from Unplugged) | Best Musical Arrangement in a Song | Nominated | Malaysia Malaysia
@@ -383,7 +383,7 @@ Year | Award | Recipients and nominees | Category | Result | Host country
 2016 | Anugerah Industri Muzik | Unplugged | Best Engineered Album | Nominated | Malaysia Malaysia
 2016 | Anugerah Industri Muzik | Unplugged | Best Album | Won | Malaysia Malaysia
 ","In 2016, Unplugged received four awards from seven nominations from Anugerah Industri Muzik: Best Vocal Performance in a Song (Female), Best Nasyid Song for ""Mikraj Cinta"", Best Musical Arrangement in a Song for ""Menatap dalam Mimpi"", and Best Album.","Unplugged (2016) received nominations in six categories, including Best Musical Arrangement in a Song, Best Vocal Performance in a Song (Female), Best Nasyid Song, Best Pop Song, Best Engineered Album, and Best Album, winning in four categories - Best Nasyid Song, Best Vocal Performance in a Song (Female), Best Musical Arrangement in a Song, and Best Album at the Anugerah Industri Muzik.","Unplugged (2016) received a total of seven nominations from Anugerah Industri Muzik. The nominations were in the following categories: Best Musical Arrangement in a Song for 'Jaga Dia Untukku' (Live from Unplugged) and 'Menatap dalam Mimpi', Best Nasyid Song for 'Mikraj Cinta', Best Vocal Performance in a Song (Female) for 'Menatap dalam Mimpi', Best Pop Song for 'Menatap dalam Mimpi', Best Engineered Album for 'Unplugged', and Best Album for 'Unplugged'. It won in four categories: Best Nasyid Song for 'Mikraj Cinta', Best Vocal Performance in a Song (Female) for 'Menatap dalam Mimpi', Best Musical Arrangement in a Song for 'Menatap dalam Mimpi', and Best Album for 'Unplugged'.","Unplugged (2016) received nominations in three categories at the Anugerah Industri Muzik: Best Musical Arrangement in a Song, Best Engineered Album, and Best Album. It won in the category of Best Album."
-95,What TV roles did Janina Gavankar portray in 2008?,"Table Title: Janina Gavankar - Television
+fetaqa_95,Yi-1.5-34B,95,What TV roles did Janina Gavankar portray in 2008?,"Table Title: Janina Gavankar - Television
 Table:
 Year | Title | Role | Notes
 2004 | Strong Medicine | Nurse Juni | ""Omissions""
@@ -417,7 +417,7 @@ Year | Title | Role | Notes
 2018 | Daddy Issues | TBA | TV Movie
 2019 | You're The Worst | Rachel | ""Zero Eggplants""
 ","In 2008, Janina Gavankar appeared in the TV series Stargate Atlantis, Grey's Anatomy, My Boys, Factory and NCIS.","In 2008, Janina Gavankar portrayed multiple TV roles, including Nurse Janine ""Juni"" Rourke in Strong Medicine, Eva 'Papi' Torres in The L Word, Terri in My Boys, Laura in Factory, Sgt. 'Dusty' Mehra in Stargate Atlantis, Intern Lisa in Grey's Anatomy, and Ada Rahimi in Three Rivers.","In 2008, Janina Gavankar portrayed the following TV roles: Terri in 'My Boys' (episode: ""The Transitioning""), Laura in 'Factory', Sgt. 'Dusty' Mehra in 'Stargate Atlantis' (episode: ""Whispers""), and Intern Lisa in 'Grey's Anatomy' (episodes: ""There's No 'I' in Team"", ""Life During Wartime"").","In 2008, Janina Gavankar portrayed several TV roles, including Terri in My Boys, Laura in Factory, Sgt. 'Dusty' Mehra in Stargate Atlantis, and Intern Lisa in Grey's Anatomy."
-130,"What isotopes of Seaborgium are produced in the ²⁴⁸Cm(²²Ne,5n) reaction? ","Table Title: Seaborgium - Isotopes
+fetaqa_130,Yi-1.5-34B,130,"What isotopes of Seaborgium are produced in the ²⁴⁸Cm(²²Ne,5n) reaction? ","Table Title: Seaborgium - Isotopes
 Table:
 Isotope | Half-life | Decay mode | Discovery year | Reaction
 258Sg | 3 ms | SF | 1994 | 209Bi(51V,2n)
@@ -436,7 +436,7 @@ Isotope | Half-life | Decay mode | Discovery year | Reaction
 269Sg | 14 min | α | 2010 | 285Fl(—,4α)
 271Sg | 2.4 min | α | 2003 | 287Fl(—,4α)
 ","The isotope ²⁶⁵Sg and its isomer ²⁶⁵ᵐSg are produced in the ²⁴⁸Cm(²²Ne,5n) reaction.","The 248Cm(22Ne,5n) reaction produces the isotopes 263mSg (with a half-life of 120 ms) and 265mSg (with a half-life of 16.2 s) of Seaborgium.","The 248Cm(22Ne,5n) reaction produces the isotopes 265Sg (with a half-life of 8 s) and 265mSg (with a half-life of 16.2 s) of Seaborgium.","The 248Cm(22Ne,5n) reaction produces the isotopes 265Sg (with a half-life of 8 s) and 265mSg (with a half-life of 16.2 s) of Seaborgium."
-146,How's George Eastham's record before joining Stoke City?,"Table Title: George Eastham - Club
+fetaqa_146,Yi-1.5-34B,146,How's George Eastham's record before joining Stoke City?,"Table Title: George Eastham - Club
 Table:
 Club | Season | League | League | League | FA Cup | FA Cup | League Cup | League Cup | Other | Other | Total | Total
 Club | Season | Division | Apps | Goals | Apps | Goals | Apps | Goals | Apps | Goals | Apps | Goals
@@ -464,7 +464,7 @@ Stoke City | Total | Total | 194 | 4 | 23 | 0 | 19 | 1 | 4 | 0 | 240 | 5
 Cleveland Stokers (loan) | 1967 | United Soccer Association | 11 | 1 | — | — | 11 | 1 | - | - | - | -
 Career Total | Career Total | Career Total | 536 | 75 | 41 | 5 | 19 | 1 | 7 | 0 | 603 | 81
 ","Eastham made 223 appearances, scoring 41 goals before joining Stoke City in 1966.","George Eastham's record before joining Stoke City was impressive, as he scored a total of 41 goals in 207 appearances for Newcastle United and another 41 goals in 223 appearances for Arsenal.","Before joining Stoke City, George Eastham played for Newcastle United and Arsenal. At Newcastle United, he made 124 league appearances and scored 29 goals. In total, including FA Cup appearances, he played 129 matches and scored 34 goals for Newcastle. At Arsenal, he made 207 league appearances and scored 41 goals. Including FA Cup and League Cup appearances, he played a total of 223 matches and scored 41 goals for Arsenal.","Before joining Stoke City, George Eastham played for Newcastle United and Arsenal. For Newcastle United, he scored 29 goals in 124 league appearances and had a total of 34 goals in 129 appearances across all competitions. For Arsenal, he scored 41 goals in 207 league appearances and had a total of 41 goals in 223 appearances across all competitions."
-153,How many matches and goals did Mitsunori Yoshida have as a player for Yamaha Motors?,"Table Title: Mitsunori Yoshida - Club statistics
+fetaqa_6,Qwen1.5-72B,153,How many matches and goals did Mitsunori Yoshida have as a player for Yamaha Motors?,"Table Title: Mitsunori Yoshida - Club statistics
 Table:
 Club performance | Club performance | Club performance | League | League | Cup | Cup | League Cup | League Cup | Total | Total
 Season | Club | League | Apps | Goals | Apps | Goals | Apps | Goals | Apps | Goals
@@ -488,7 +488,7 @@ Japan | Japan | Japan | League | League | Emperor's Cup | Emperor's Cup | J.Leag
 Country | Japan | Japan | 275 | 35 | 1 | 0 | 7 | 1 | 283 | 36
 Total | Total | Total | 275 | 35 | 1 | 0 | 7 | 1 | 283 | 36
 ",Mitsunori Yoshida played a total 275 league matches and scored 35 goals for Yamaha Motors.,Mitsunori Yoshida played for Yamaha Motors in 275 matches and scored 35 goals.,"Mitsunori Yoshida played for Yamaha Motors in a total of 275 league matches, scoring 35 goals. Additionally, he played 1 match in the Emperor's Cup and 7 matches in the J.League Cup, scoring 1 goal in the latter. This brings his total appearances for Yamaha Motors to 283 matches, with 36 goals scored across all competitions.",Mitsunori Yoshida played for Yamaha Motors in 251 matches and scored 35 goals.
-160,Which Swedish ships did U-21 sink?,"Table Title: German submarine U-21 (1936) - Summary of raiding history
+fetaqa_17,Qwen1.5-72B,160,Which Swedish ships did U-21 sink?,"Table Title: German submarine U-21 (1936) - Summary of raiding history
 Table:
 Date | Name | Nationality | Tonnage | Fate
 21 November 1939 | HMS Belfast | Royal Navy | 11,500 | Damaged (mine)
@@ -499,7 +499,7 @@ Date | Name | Nationality | Tonnage | Fate
 31 January 1940 | Vidar | Denmark | 1,353 | Sunk
 24 February 1940 | Royal Archer | United Kingdom | 2,266 | Sunk (mine)
 ",German submarine U-21 sank Mars and Carl Henckel both from Sweden on 21 December 1939.,U-21 sank the Swedish ships Mercator and Mars.,U-21 sank the Swedish ships Carl Henckel and Mars.,U-21 sank the Swedish ships Carl Henckel and Mars.
-169,How did Neethling and Hackett do in the final?,"Table Title: Swimming at the 2000 Summer Olympics – Men's 400 metre freestyle - Final
+fetaqa_31,Qwen1.5-72B,169,How did Neethling and Hackett do in the final?,"Table Title: Swimming at the 2000 Summer Olympics – Men's 400 metre freestyle - Final
 Table:
 Rank | Lane | Name | Nationality | Time | Notes
 - | 4 | Ian Thorpe | Australia | 3:40.59 | WR
@@ -511,7 +511,7 @@ Rank | Lane | Name | Nationality | Time | Notes
 7 | 8 | Grant Hackett | Australia | 3:48.22 | -
 8 | 3 | Ryk Neethling | South Africa | 3:48.52 | -
 ","Aussie Grant Hackett (3:48.22) and South Africa's Ryk Neethling (3:48.52) rounded out the finale, finishing three-tenths of a second (0.30) apart.","Neethling finished 7th with a time of 3:48.52, while Hackett finished 6th with a time of 3:48.22.","Ryk Neethling finished 8th with a time of 3:48.52, while Grant Hackett finished 7th with a time of 3:48.22.","Neethling finished 8th with a time of 3:48.52, while Hackett finished 7th with a time of 3:48.22."
-174,"What does Ogden Avenue intersect in Chicago, Western Springs and Lisle?","Table Title: Ogden Avenue - Major intersections
+fetaqa_37,Qwen1.5-72B,174,"What does Ogden Avenue intersect in Chicago, Western Springs and Lisle?","Table Title: Ogden Avenue - Major intersections
 Table:
 County | Location | mi | km | Destinations | Notes
 Kendall | Oswego | - | - | US 34 west | Continuation beyond Ogden Falls Boulevard
@@ -530,7 +530,7 @@ Cook | Chicago | 37.2 | 59.9 | I-90 / I-94 west (Kennedy Expressway) | Westbound
 Cook | Chicago | 37.5 | 60.4 | West Chestnut Street | Eastern terminus
 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access
 ","The Ogden Avenue intersects Interstate 90/Interstate 94/Kennedy Expressway in Chicago, Interstate 294/Tri-State Tollway in Western Springs, and Interstate 355 in Lisle.","In Chicago, Ogden Avenue intersects with I-90/I-94 west (Kennedy Expressway); in Western Springs, it intersects with IL 83 (Kingery Highway); and in Lisle, it intersects with IL 53 (Lincoln Avenue).","In Chicago, Ogden Avenue intersects with I-90/I-94 west (Kennedy Expressway) at mile 37.2 and West Chestnut Street at mile 37.5. In Western Springs, Ogden Avenue does not directly intersect with any destinations; however, it is near the Hinsdale–Western Springs line where it intersects with I-294 (Tri-State Tollway) at mile 22.0. In Lisle, Ogden Avenue intersects with IL 53 (Lincoln Avenue) at mile 13.3 and I-88 (Ronald Reagan Memorial Tollway) / I-355 (Veterans Memorial Tollway) at mile 14.5.","In Chicago, Ogden Avenue intersects with I-90/I-94 west (Kennedy Expressway); in the Hinsdale–Western Springs line, it intersects with I-294 (Tri-State Tollway); and in Lisle, it intersects with IL 53 (Lincoln Avenue)."
-185,What did Sally Pearson achieve at the 2008 Olympic Games?,"Table Title: Sally Pearson - Achievements
+fetaqa_50,Qwen1.5-72B,185,What did Sally Pearson achieve at the 2008 Olympic Games?,"Table Title: Sally Pearson - Achievements
 Table:
 Year | Competition | Venue | Position | Event | Notes
 Representing Australia | Representing Australia | Representing Australia | Representing Australia | Representing Australia | Representing Australia
@@ -564,7 +564,7 @@ Representing Australia | Representing Australia | Representing Australia | Repre
 2017 | World Championships | London, England | 1st | 100 m hurdles | 12.59
 2018 | World Indoor Championships | Birmingham, England | 9th (semis) | 60 m hurdles | 7.92
 ",Sally Pearson played in 100 m hurdles at the 2008 Olympic Games and achieved 2nd with 12.64s.,Sally Pearson achieved a 2nd place win in the 100m hurdles event at the 2008 Olympic Games.,"At the 2008 Olympic Games in Beijing, China, Sally Pearson achieved a 2nd place finish in the 100 m hurdles event with a time of 12.64 seconds.","Sally Pearson achieved a 2nd place finish in the 100 m hurdles event at the 2008 Olympic Games in Beijing, China."
-189,Did The Knife win any Album of the Year awards?,"Table Title: The Knife - Awards
+fetaqa_54,Qwen1.5-72B,189,Did The Knife win any Album of the Year awards?,"Table Title: The Knife - Awards
 Table:
 Year | Awards | Category
 2003 | Nöjesguiden's Stockholm Award | Music Category
@@ -588,7 +588,7 @@ Year | Awards | Category
 2007 | SAMA | Album of the Year for Silent Shout
 2013 | Nordic Music Prize | Best Nordic Album of the Year for Shaking the Habitual
 ","In 2006, The Knife won the Pitchfork Media Album of the Year award and in 2007, The Knife won the SAMA Album of the Year for Silent Shout award.","Yes, The Knife won Album of the Year for ""Silent Shout"" at the 2007 Scandinavian Alternative Music Awards (SAMA) and the 2013 Nordic Music Prize for ""Shaking the Habitual.""","Yes, The Knife won Album of the Year for 'Silent Shout' at the 2007 Scandinavian Alternative Music Awards (SAMA) and the 2006 Pitchfork Media Album of the Year. They also won the 2013 Nordic Music Prize for Best Nordic Album of the Year for 'Shaking the Habitual.'","Yes, The Knife won the Album of the Year award from Pitchfork Media in 2006 and the 2013 Nordic Music Prize for Best Nordic Album of the Year for 'Shaking the Habitual.'"
-198,Did Maja Neuenschwander win any marathons?,"Table Title: Maja Neuenschwander - Results
+fetaqa_65,Qwen1.5-72B,198,Did Maja Neuenschwander win any marathons?,"Table Title: Maja Neuenschwander - Results
 Table:
 Year | Competition | Venue | Position | Notes
 2001 | European Cross Country Championships | Thun, Switzerland | 69th | Cross country
@@ -600,7 +600,7 @@ Year | Competition | Venue | Position | Notes
 2015 | Vienna Marathon | Vienna, Austria | 1st | Marathon
 2015 | Berlin Marathon | Berlin, Germany | 6th | Marathon
 ",Maja Neuenschwander won the marathon at the 2015 Vienna Marathon.,"Yes, Maja Neuenschwander won the Hamburg Marathon in 2013 and the Vienna Marathon in 2015.","Yes, Maja Neuenschwander won the Vienna Marathon in 2015.","Yes, Maja Neuenschwander won the Vienna Marathon in 2015."
-209,What is followed after Harmonic Motion Vol.1?,"Table Title: Gifts from Enola - Discography
+fetaqa_78,Qwen1.5-72B,209,What is followed after Harmonic Motion Vol.1?,"Table Title: Gifts from Enola - Discography
 Table:
 Year | Title | Format | Label
 2006 | Loyal Eyes Betrayed the Mind | CD | Self-released
@@ -610,7 +610,7 @@ Year | Title | Format | Label
 2010 | Gifts from Enola | CD/LP | The Mylene Sheath
 2012 | A Healthy Fear | CD/LP | The Mylene Sheath
 ",Harmonic Motion Vol.1 was followed by a release of Loyal Eyes Betrayed the Mind by The Mylene Sheath in 2008.,"Loyal Eyes Betrayed the Mind was released next, available in CD and 2xLP formats under The Mylene Sheath label.","After 'Harmonic Motion Vol.1', the next release was 'Loyal Eyes Betrayed the Mind' in 2008, available in the 2xLP format under The Mylene Sheath label.","After 'Harmonic Motion Vol.1', 'Loyal Eyes Betrayed the Mind' was released next in the 2xLP format under The Mylene Sheath label."
-217,What awards and how many nominations did Unplugged (2016) receive from Anugerah Industri Muzik?,"Table Title: Unplugged (Siti Nurhaliza album) - Anugerah Industri Muzik
+fetaqa_92,Qwen1.5-72B,217,What awards and how many nominations did Unplugged (2016) receive from Anugerah Industri Muzik?,"Table Title: Unplugged (Siti Nurhaliza album) - Anugerah Industri Muzik
 Table:
 Year | Award | Recipients and nominees | Category | Result | Host country
 2016 | Anugerah Industri Muzik | ""Jaga Dia Untukku"" (Live from Unplugged) | Best Musical Arrangement in a Song | Nominated | Malaysia Malaysia
@@ -621,7 +621,7 @@ Year | Award | Recipients and nominees | Category | Result | Host country
 2016 | Anugerah Industri Muzik | Unplugged | Best Engineered Album | Nominated | Malaysia Malaysia
 2016 | Anugerah Industri Muzik | Unplugged | Best Album | Won | Malaysia Malaysia
 ","In 2016, Unplugged received four awards from seven nominations from Anugerah Industri Muzik: Best Vocal Performance in a Song (Female), Best Nasyid Song for ""Mikraj Cinta"", Best Musical Arrangement in a Song for ""Menatap dalam Mimpi"", and Best Album.","Unplugged (2016) received a total of 7 nominations and 4 awards from Anugerah Industri Muzik, including awards for Best Nasyid Song, Best Vocal Performance in a Song (Female), Best Musical Arrangement in a Song, and Best Album.","Unplugged (2016) received a total of 7 nominations from Anugerah Industri Muzik. It won 4 awards in the following categories: Best Nasyid Song for ""Mikraj Cinta"", Best Vocal Performance in a Song (Female) for ""Menatap dalam Mimpi"", Best Musical Arrangement in a Song for ""Menatap dalam Mimpi"", and Best Album for 'Unplugged'. The nominations included Best Musical Arrangement in a Song for ""Jaga Dia Untukku"" (Live from Unplugged), Best Pop Song for ""Menatap dalam Mimpi"", and Best Engineered Album for 'Unplugged'.","Unplugged (2016) received a total of 6 nominations and 3 awards from Anugerah Industri Muzik. The awards won were for Best Nasyid Song, Best Vocal Performance in a Song (Female), and Best Album."
-239,What are the two most recent projects?,"Table Title: Twin-fuselage aircraft - List of twin-fuselage aircraft
+fetaqa_125,Qwen1.5-72B,239,What are the two most recent projects?,"Table Title: Twin-fuselage aircraft - List of twin-fuselage aircraft
 Table:
 Type | Country | Class | Role | Date | Status | Notes
 Belyayev DB-LK | USSR | Propeller | Bomber | 1940 | Prototype | -
@@ -656,7 +656,7 @@ Tupolev ANT-22 | USSR | Propeller | - | 1934 | Prototype | Flying boat.
 Wagner Twin Cub | USA | Propeller | - | 1952 | Prototype | Twin Piper Cub one-off conversion.
 Wight Twin Seaplane | UK | Propeller | - | 1916 | Prototype | Variant of the Wight Twin Landplane of twin boom configuration.
 ","Current project include the Scaled Composites Model 351 Roc proposed for Stratolaunch, and NASA's Towed Glider Air-Launch Concept.",The two most recent projects are Scaled Composites Model 348 White Knight Two and Scaled Composites Model 367 BiPod.,The two most recent projects are the Scaled Composites Model 351 Roc from 2019 and the Towed Glider Air-Launch Concept from 2013.,The two most recent projects are the Scaled Composites Model 351 Roc from 2019 and the Towed Glider Air-Launch Concept from 2013.
-258,Which films did Simran appear in 2001?,"Table Title: Simran (actress) - Telugu
+fetaqa_2,Llama-2-70B,258,Which films did Simran appear in 2001?,"Table Title: Simran (actress) - Telugu
 Table:
 Year | Film | Role | Language | Notes
 1997 | Abbai Gari Pelli | Madhumitha | Telugu | -
@@ -681,7 +681,7 @@ Year | Film | Role | Language | Notes
 2008 | Okka Magadu | Sharada | Telugu | -
 2008 | John Appa Rao 40 plus | Pravallika | Telugu | -
 ","In 2001, Simran appeared in Telugu films with Mrigaraju, Daddy and Bava Nachadu.","Simran appeared in seven films in 2001: Mrigaraju, Narasimha Naidu, Prematho Raa, Bava Nachadu, Daddy, Seema Simham, and Raghavendra (in a special appearance in the song ""Calcutta Pan"").","Simran appeared in six films in 2001: Mrigaraju, Narasimha Naidu, Prematho Raa, Bava Nachadu, Daddy, and Raghavendra (in a special appearance in the song ""Calcutta Pan"").","Simran appeared in six films in 2001: Mrigaraju, Narasimha Naidu, Prematho Raa, Bava Nachadu, Daddy, and Seema Simham."
-262,How many matches and goals did Mitsunori Yoshida have as a player for Yamaha Motors?,"Table Title: Mitsunori Yoshida - Club statistics
+fetaqa_6,Llama-2-70B,262,How many matches and goals did Mitsunori Yoshida have as a player for Yamaha Motors?,"Table Title: Mitsunori Yoshida - Club statistics
 Table:
 Club performance | Club performance | Club performance | League | League | Cup | Cup | League Cup | League Cup | Total | Total
 Season | Club | League | Apps | Goals | Apps | Goals | Apps | Goals | Apps | Goals
@@ -705,7 +705,7 @@ Japan | Japan | Japan | League | League | Emperor's Cup | Emperor's Cup | J.Leag
 Country | Japan | Japan | 275 | 35 | 1 | 0 | 7 | 1 | 283 | 36
 Total | Total | Total | 275 | 35 | 1 | 0 | 7 | 1 | 283 | 36
 ",Mitsunori Yoshida played a total 275 league matches and scored 35 goals for Yamaha Motors.,275 matches and 35 goals.,"Mitsunori Yoshida played a total of 275 league matches and scored 35 goals for Yamaha Motors. Additionally, he played 1 match in the Emperor's Cup and 7 matches in the J.League Cup, scoring 1 goal in the latter. This brings his total appearances for Yamaha Motors to 283 matches with 36 goals.",275 matches and 34 goals.
-263,What role did Luther A. Johnson (D) serve and who was he succeeded by?,"Table Title: 79th United States Congress - House of Representatives
+fetaqa_7,Llama-2-70B,263,What role did Luther A. Johnson (D) serve and who was he succeeded by?,"Table Title: 79th United States Congress - House of Representatives
 Table:
 District | Vacator | Reason for change | Successor | Date of successor's formal installation
 Rhode Island 2nd | Vacant | John E. Fogarty resigned during the previous Congress. | John E. Fogarty (D) | February 7, 1945
@@ -733,7 +733,7 @@ Idaho 2nd | Henry Dworshak (R) | Resigned November 5, 1946, after being elected 
 Virginia 7th | Absalom W. Robertson (D) | Resigned November 5, 1946, after being elected to the U.S. Senate | Burr Harrison (D) | November 5, 1946
 Wisconsin 2nd | Robert K. Henry (R) | Died November 20, 1946 | Vacant | Not filled this term
 ","Luther A. Johnson (D) served as representative until July 17, 1946, which was later succeeded by Olin E. Teague (D), from August 24, 1946.",Follow-up: Was he a successful person?,"Luther A. Johnson (D) served as a member of the House of Representatives for Texas's 6th district. He resigned on July 17, 1946, after becoming a judge of the United States Tax Court. He was succeeded by Olin E. Teague (D), who was formally installed on August 24, 1946.","Luther A. Johnson (D) served as a representative for Texas 6th district. He resigned on July 17, 1946, after becoming a judge of the United States Tax Court. He was succeeded by Olin E. Teague (D) on August 24, 1946."
-264,"How did Fernando Peres do on his first game, when was his most recent appearance?","Table Title: Fernando Peres - International career
+fetaqa_8,Llama-2-70B,264,"How did Fernando Peres do on his first game, when was his most recent appearance?","Table Title: Fernando Peres - International career
 Table:
 Goal | Date | Venue | Opponent | Score | Result | Competition
 1 | 4 June 1964 | Estádio do Pacaembu, São Paulo, Brazil | England | 1–0 | 1–1 | Taça das Nações
@@ -741,7 +741,7 @@ Goal | Date | Venue | Opponent | Score | Result | Competition
 3 | 21 November 1971 | Estádio da Luz (1954), Lisbon, Portugal | Belgium | 1–1 | 1–1 | Euro 1972 qualifying
 4 | 25 June 1972 | Estádio do Arruda, Recife, Brazil | Republic of Ireland | 1–0 | 2–1 | Brazil Independence Cup
 ","Fernando Peres's debut came on 4 June 1964 in a 1–1 draw with England, and his last appearance was during the Brazil Independence Cup in June 1972.","Fernando Peres in his first game scored a goal, his most recent appearance was in 1972, where he scored a goal as well.","Fernando Peres scored a goal in his first game on 4 June 1964 against England at Estádio do Pacaembu, São Paulo, Brazil, with the match ending in a 1–1 draw during the Taça das Nações. His most recent appearance was on 25 June 1972 against the Republic of Ireland at Estádio do Arruda, Recife, Brazil, where he also scored a goal, contributing to a 2–1 victory in the Brazil Independence Cup.","Fernando Peres's first recorded game in the table was on 4 June 1964 against England, where the match ended in a 1–1 draw. His most recent appearance in the table was on 25 June 1972 against the Republic of Ireland, where he scored a goal in a 2–1 victory."
-271,"What were the prizes won by Beyonce's ""Single Ladies"" song during its release ?","Table Title: Single Ladies (Put a Ring on It) - Accolades
+fetaqa_15,Llama-2-70B,271,"What were the prizes won by Beyonce's ""Single Ladies"" song during its release ?","Table Title: Single Ladies (Put a Ring on It) - Accolades
 Table:
 Year | Organization | Award | Result
 2009 | BET Awards | Video of the Year | Won
@@ -768,7 +768,7 @@ Year | Organization | Award | Result
 2010 | 52nd Annual Grammy Awards | Best R&B Song | Won
 2010 | 52nd Annual Grammy Awards | Best Female R&B Vocal Performance | Won
 ","Single Ladies (Put a Ring on It) won the awards for Favorite Song at the 2009 Kids' Choice Awards, Song of the Year at the 2009 Soul Train Music Awards, and Best R&B Song Award.","Beyonce's ""Single Ladies"" won the following prizes during its release:","Beyonce's ""Single Ladies"" won several awards during its release. In 2009, it won the BET Award for Video of the Year, the MOBO Award for Best Video, the MTV Europe Music Award for Best Video, the MTV Video Music Award for Video of the Year, Best Editing in a Video, and Best Choreography in a Video. It also won the Kids' Choice Award for Favorite Song, the Soul Train Music Award for Song of the Year, the Teen Choice Award for Choice R&B Track, and the TRL Award for Nokia Playlist Generation Award. In 2010, it won the ASCAP Pop Music Award for Most Performed Songs, the ASCAP Rhythm & Soul Music Award for Award Winning R&B/Hip-Hop Songs, and three Grammy Awards: Song of the Year, Best R&B Song, and Best Female R&B Vocal Performance.","Beyonce's 'Single Ladies' won the following prizes: 2009 BET Awards for Video of the Year, 2009 MOBO Awards for Best Video, 2009 MTV Europe Music Awards for Best Video, 2009 MTV Video Music Awards for Video of the Year, 2009 MTV Video Music Awards for Best Editing in a Video, 2009 MTV Video Music Awards for Best Choreography in a Video, 2009 Kids' Choice Awards for Favorite Song, 2009 Soul Train Music Awards for Song of the Year, 2009 Teen Choice Awards for Choice R&B Track, 2009 TRL Awards for Nokia Playlist Generation Award, 2010 ASCAP Pop Music Awards for Most Performed Songs, 2010 ASCAP Rhythm & Soul Music Awards for Award Winning R&B/Hip-Hop Songs, 2010 52nd Annual Grammy Awards for Song of the Year, 2010 52nd Annual Grammy Awards for Best R&B Song, and 2010 52nd Annual Grammy Awards for Best Female R&B Vocal Performance."
-277,Which two contestants jumped closest to Lawson?,"Table Title: 2017 World Championships in Athletics – Men's long jump - Final
+fetaqa_21,Llama-2-70B,277,Which two contestants jumped closest to Lawson?,"Table Title: 2017 World Championships in Athletics – Men's long jump - Final
 Table:
 Rank | Name | Nationality | Round | Round | Round | Round | Round | Round | Mark | Notes
 Rank | Name | Nationality | 1 | 2 | 3 | 4 | 5 | 6 | Mark | Notes
@@ -785,7 +785,7 @@ Rank | Name | Nationality | 1 | 2 | 3 | 4 | 5 | 6 | Mark | Notes
 11 | Fabrice Lapierre | Australia Australia (AUS) | 7.89 | 7.93 | 7.91 | - | - | - | 7.93 | -
 12 | Damar Forbes | Jamaica Jamaica (JAM) | 7.61 | 7.91 | 7.85 | - | - | - | 7.91 | -
 ",Rushwahl Samaai jumped 8.25 and the closest to Lawson was Aleksandr Menkov with 8.27.,"The two contestants who jumped closest to Lawson are Manyonga, and Samaai. ","The two contestants who jumped closest to Jarrion Lawson, who had a best jump of 8.44 meters, are Luvo Manyonga with a jump of 8.48 meters and Rushwahl Samaai with a jump of 8.32 meters.","The two contestants who jumped closest to Lawson are Manyonga, with a jump of 8.48 meters, and Samaai, with a jump of 8.32 meters."
-288,"How many yards, touchdowns, and games did Barry Sanders complete in 1998?","Table Title: Barry Sanders - 1988 game logs
+fetaqa_32,Llama-2-70B,288,"How many yards, touchdowns, and games did Barry Sanders complete in 1998?","Table Title: Barry Sanders - 1988 game logs
 Table:
 G | Opponent | Att | Yds | Avg | TD
 1 | Miami (OH) | 18 | 178 | 9.9 | 2
@@ -802,7 +802,7 @@ G | Opponent | Att | Yds | Avg | TD
 12 | Wyoming | 29 | 222 | 7.7 | 5
 Totals | Totals | 373 | 2,850 | 7.6 | 42
 ","In 1988, Barry Sanders rushed for a total of 2,850 yards and scored 42 touchdowns over 12 games.","Barry Sanders completed 0 yards, 0 touchdowns, and 0 games in 1988.","Barry Sanders completed 2,850 yards, 42 touchdowns, and played in 12 games in 1988.","Barry Sanders completed 2,850 yards, 42 touchdowns, and played in 12 games in 1988."
-293,"What does Ogden Avenue intersect in Chicago, Western Springs and Lisle?","Table Title: Ogden Avenue - Major intersections
+fetaqa_37,Llama-2-70B,293,"What does Ogden Avenue intersect in Chicago, Western Springs and Lisle?","Table Title: Ogden Avenue - Major intersections
 Table:
 County | Location | mi | km | Destinations | Notes
 Kendall | Oswego | - | - | US 34 west | Continuation beyond Ogden Falls Boulevard
@@ -821,13 +821,13 @@ Cook | Chicago | 37.2 | 59.9 | I-90 / I-94 west (Kennedy Expressway) | Westbound
 Cook | Chicago | 37.5 | 60.4 | West Chestnut Street | Eastern terminus
 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access | 1.000 mi = 1.609 km; 1.000 km = 0.621 mi Concurrency terminus Incomplete access
 ","The Ogden Avenue intersects Interstate 90/Interstate 94/Kennedy Expressway in Chicago, Interstate 294/Tri-State Tollway in Western Springs, and Interstate 355 in Lisle.","Ogden Avenue intersects with West Chestnut Street in Chicago, IL 83 (Kingery Highway) in Western Springs, and I-355 (Veterans Memorial Tollway) in Lisle.","In Chicago, Ogden Avenue intersects with I-90 / I-94 west (Kennedy Expressway) and West Chestnut Street. In Western Springs, Ogden Avenue intersects with I-294 (Tri-State Tollway) at the Hinsdale–Western Springs line. In Lisle, Ogden Avenue intersects with IL 53 (Lincoln Avenue) and I-88 (Ronald Reagan Memorial Tollway) / I-355 (Veterans Memorial Tollway).","Ogden Avenue intersects with West Chestnut Street in Chicago, I-294 (Tri-State Tollway) at the Hinsdale–Western Springs line, and I-88 (Ronald Reagan Memorial Tollway) / I-355 (Veterans Memorial Tollway) in Lisle."
-294,Who had the highest team inning during the 2010-11 Ashes series?,"Table Title: 2010–11 Ashes series - Team
+fetaqa_38,Llama-2-70B,294,Who had the highest team inning during the 2010-11 Ashes series?,"Table Title: 2010–11 Ashes series - Team
 Table:
 Statistic | England | Australia
 Highest team innings | 644 | 481
 Lowest team innings | 123 | 98
 ",England had the highest team inning with 644.,Your Answer:,"During the 2010-11 Ashes series, England had the highest team innings with a score of 644.",England had the highest team inning during the 2010-11 Ashes series with a score of 644.
-295,Which films did Thomkins play in 2007 and 1999?,"Table Title: Paul F. Tompkins - Film
+fetaqa_39,Llama-2-70B,295,Which films did Thomkins play in 2007 and 1999?,"Table Title: Paul F. Tompkins - Film
 Table:
 Year | Title | Role | Notes
 1996 | Sham | Sal | Short film
@@ -851,7 +851,7 @@ Year | Title | Role | Notes
 2015 | The Dramatics: A Comedy | Anton Campbell | -
 2015 | Hell & Back | Annoyed Lost Soul | Voice
 ","Tompkins played in film, There Will Be Blood (2007), as Prescott, and in the 1999 film, Magnolia.","Tompkins played Club Owner in Tenacious D: Time Fixers and Prescott in There Will Be Blood in 2007. He played Chad, Seduce & Destroy in Magnolia in 1999.","In 2007, Paul F. Tompkins appeared in 'Super High Me' as himself and in 'There Will Be Blood' as Prescott. In 1999, he played the role of Chad, Seduce & Destroy in 'Magnolia'.","In 2007, Tompkins played himself in the documentary 'Super High Me' and Prescott in 'There Will Be Blood'. In 1999, he played Chad, Seduce & Destroy (voice) in 'Magnolia'."
-301,"How long did Georges Boucher play in the NHL, and how did he perform?","Table Title: Georges Boucher - Career statistics
+fetaqa_45,Llama-2-70B,301,"How long did Georges Boucher play in the NHL, and how did he perform?","Table Title: Georges Boucher - Career statistics
 Table:
 - | - | - | Regular season | Regular season | Regular season | Regular season | Regular season | Playoffs | Playoffs | Playoffs | Playoffs | Playoffs | - | -
 Season | Team | League | - | GP | G | A | Pts | PIM | - | GP | G | A | Pts | PIM
@@ -885,7 +885,7 @@ NHA totals | NHA totals | NHA totals | - | 37 | 19 | 6 | 25 | 89 | - | 2 | 1 | 0
 NHL totals | NHL totals | NHL totals | - | 449 | 117 | 87 | 204 | 838 | - | 28 | 5 | 3 | 8 | 88
 St-Cup totals | St-Cup totals | St-Cup totals | - | — | — | — | — | — | - | 16 | 6 | 1 | 7 | 17
 ","Georges Boucher played in the NHL from 1917 to 1932, scoring 117 goals and 87 assists in 449 games.","Georges Boucher played in the NHL for 15 seasons and had a successful career, totalling 204 points in 449 games. ","Georges Boucher played in the NHL for 13 seasons, from 1917–18 to 1931–32. During his NHL career, he played a total of 449 regular season games, scoring 117 goals and providing 87 assists, resulting in 204 points. He also accumulated 838 penalty minutes. In the playoffs, Boucher played 28 games, scoring 5 goals and 3 assists for a total of 8 points, with 88 penalty minutes.","Georges Boucher played in the NHL for 12 seasons and had a successful career, totaling 204 points in 449 games."
-302,What roles did Zoe Kravitz take in 2018?,"Table Title: Zoë Kravitz - Filmography
+fetaqa_46,Llama-2-70B,302,What roles did Zoe Kravitz take in 2018?,"Table Title: Zoë Kravitz - Filmography
 Table:
 Year | Title | Role | Notes
 2007 | No Reservations | Charlotte | -
@@ -919,7 +919,7 @@ Year | Title | Role | Notes
 2018 | Spider-Man: Into the Spider-Verse | Mary Jane Watson (voice) | -
 TBA | Viena and the Fantomes | Band Manager | -
 ","Kravitz appeared in Kin and Spider-Man: Into the Spider-Verse, she also reprised her role as Leta Lestrange in Fantastic Beasts: The Crimes of Grindelwald.","Zoë Kravitz played Leta Lestrange in Fantastic Beasts: The Crimes of Grindelwald, Mary Jane Watson in Spider-Man: Into the Spider-Verse, and Band Manager in Viena and the Fantomes in 2018. ","In 2018, Zoë Kravitz played the roles of Milly in 'Kin', Leta Lestrange in 'Fantastic Beasts: The Crimes of Grindelwald', and Mary Jane Watson (voice) in 'Spider-Man: Into the Spider-Verse'.","In 2018, Zoë Kravitz played the roles of Leta Lestrange in Fantastic Beasts: The Crimes of Grindelwald and Mary Jane Watson in Spider-Man: Into the Spider-Verse."
-307,"Which candidates were elected to the Wyre Forest seat in 1987 and in 1997, respectively?","Table Title: Wyre Forest (UK Parliament constituency) - Members of Parliament
+fetaqa_52,Llama-2-70B,307,"Which candidates were elected to the Wyre Forest seat in 1987 and in 1997, respectively?","Table Title: Wyre Forest (UK Parliament constituency) - Members of Parliament
 Table:
 Election | Election | Member | Party
 - | 1983 | Esmond Bulmer | Conservative
@@ -928,7 +928,7 @@ Election | Election | Member | Party
 - | 2001 | Richard Taylor | Health Concern
 - | 2010 | Mark Garnier | Conservative
 ",Wyre Forest was held by the Conservatives' Anthony Coombs in the 1987 and in the 1997 by Labour´s David Lock.,"Mark Garnier was elected to the Wyre Forest seat in 1987, and David Lock was elected to the Wyre Forest seat in 1997.","Anthony Coombs was elected to the Wyre Forest seat in 1987, and David Lock was elected to the Wyre Forest seat in 1997.","Anthony Coombs was elected to the Wyre Forest seat in 1987, and David Lock was elected to the Wyre Forest seat in 1997."
-309,Did The Knife win any Album of the Year awards?,"Table Title: The Knife - Awards
+fetaqa_54,Llama-2-70B,309,Did The Knife win any Album of the Year awards?,"Table Title: The Knife - Awards
 Table:
 Year | Awards | Category
 2003 | Nöjesguiden's Stockholm Award | Music Category
@@ -952,7 +952,7 @@ Year | Awards | Category
 2007 | SAMA | Album of the Year for Silent Shout
 2013 | Nordic Music Prize | Best Nordic Album of the Year for Shaking the Habitual
 ","In 2006, The Knife won the Pitchfork Media Album of the Year award and in 2007, The Knife won the SAMA Album of the Year for Silent Shout award.","Yes, The Knife won several Album of the Year awards. In 2007, Silent Shout won several Album of the Year awards, including the Grammis, SAMA, and Nordic Music Prize awards.","Yes, The Knife won Album of the Year awards. In 2006, they won the Album of the Year award from Pitchfork Media. In 2007, they won the Album of the Year award at the Scandinavian Alternative Music Awards (SAMA) for 'Silent Shout'. Additionally, in 2013, they won the Best Nordic Album of the Year award at the Nordic Music Prize for 'Shaking the Habitual'.","Yes, The Knife won Album of the Year awards. In 2006, they won the Album of the Year award from Pitchfork Media. In 2007, they won the Album of the Year award at the SAMA for Silent Shout. Additionally, in 2013, they won the Best Nordic Album of the Year for Shaking the Habitual at the Nordic Music Prize."
-315,Who is the only three-time champion of the Poker Players Championship?,"Table Title: The Poker Players Championship - Winners
+fetaqa_60,Llama-2-70B,315,Who is the only three-time champion of the Poker Players Championship?,"Table Title: The Poker Players Championship - Winners
 Table:
 Year | Event name | Winner | Prize (US$) | Runner-up
 2006 | $50,000 H.O.R.S.E. | United States Chip Reese | $1,716,000 | United States Andy Bloch
@@ -969,7 +969,7 @@ Year | Event name | Winner | Prize (US$) | Runner-up
 2017 | $50,000 The Poker Players Championship | England Elior Sion | $1,395,767 | Germany Johannes Becker
 2018 | $50,000 The Poker Players Championship | United States Michael Mizrachi | $1,239,126 | United States John Hennigan
 ","Michael Mizrachi became the first three-time champion after winning the event in 2010, 2012 and 2018, earning him $1,559,046, $1,451,527, and $1,239,126, respectively.",I cannot answer based on the information provided.,"The only three-time champion of the Poker Players Championship is Michael Mizrachi, who won in 2010, 2012, and 2018.","The only three-time champion of the Poker Players Championship is Michael Mizrachi, who won in 2010, 2012, and 2018."
-317,How successful was Freeman in the 1994 Commonwealth Games competition in Canada?,"Table Title: Cathy Freeman - International competitions
+fetaqa_62,Llama-2-70B,317,How successful was Freeman in the 1994 Commonwealth Games competition in Canada?,"Table Title: Cathy Freeman - International competitions
 Table:
 Year | Competition | Venue | Position | Event | Notes
 Representing Australia | Representing Australia | Representing Australia | Representing Australia | Representing Australia | Representing Australia
@@ -997,7 +997,7 @@ Representing Australia | Representing Australia | Representing Australia | Repre
 2000 | Summer Olympics | Sydney, Australia | 5th | 4 × 400 m relay | 3:23.81
 2002 | Commonwealth Games | Manchester, Great Britain | 1st | 4 × 400 m relay | 3:25.63
 ","Competing at the 1994 Commonwealth Games in Canada, Freeman won gold in both the 200 m and 400 m.","Answer: Freeman had a highly successful 1994 Commonwealth Games competition in Canada, winning 3 gold medals in the 200m, 400m, and 4x100m relay events and a silver medal in the 4x400m relay. ","Cathy Freeman had a successful 1994 Commonwealth Games in Victoria, Canada. She won gold medals in the 200m with a time of 22.25 and in the 400m with a time of 50.38. Additionally, she secured a silver medal in the 4 × 100 m relay with a time of 43.43.","Freeman had a highly successful 1994 Commonwealth Games competition in Canada, winning gold medals in the 200m and 400m events and a silver medal in the 4x100m relay."
-323,What did Tara Fitzgerald appear in in 2009?,"Table Title: Tara Fitzgerald - Theatre
+fetaqa_68,Llama-2-70B,323,What did Tara Fitzgerald appear in in 2009?,"Table Title: Tara Fitzgerald - Theatre
 Table:
 Year | Title | Role | Theatre
 1992 | Our Song | Angela Caxton | Apollo Theatre (London) and UK tour
@@ -1013,7 +1013,7 @@ Year | Title | Role | Theatre
 2013 | The Winter's Tale | Hermione | Globe Theatre London and UK tour
 2019 | Shipwreck | - | Almeida Theatre, London
 ",Fitzgerald has appeared in The Misanthrope and A Doll's House in 2009,Tara Fitzgerald appeared in A Doll's House as Christine Lyle on a UK tour and in The Misanthrope as Marcia at the Comedy Theatre in 2009.,"In 2009, Tara Fitzgerald appeared in 'A Doll's House' as Christine Lyle at the Donmar Warehouse and in 'The Misanthrope' as Marcia at the Comedy Theatre.",Tara Fitzgerald appeared in A Doll's House as Christine Lyle at the Donmar Warehouse and in The Misanthrope as Marcia at the Comedy Theatre in 2009.
-325,What were the first two songs released for Bop City 2: TerroRising?,"Table Title: Terror Jr - Singles
+fetaqa_70,Llama-2-70B,325,What were the first two songs released for Bop City 2: TerroRising?,"Table Title: Terror Jr - Singles
 Table:
 Title | Year | Peak chart positions | Peak chart positions | Peak chart positions | Album
 Title | Year | CZE | SLK | SWE Heat. | Album
@@ -1029,7 +1029,7 @@ Title | Year | CZE | SLK | SWE Heat. | Album
 ""Heaven Wasn't Made For Me"" | 2018 | — | — | — | Unfortunately, Terror Jr
 ""A-OK (Everything's Perfect)"" | 2018 | — | — | — | Unfortunately, Terror Jr
 ","In 2017, Terror Jr released ""Caramel"" and ""Death Wish"" as the first two songs from Bop City 2: TerroRising.","Rule: In order to answer the question, you had to compile data from two separate columns in the table.","The first two songs released for 'Bop City 2: TerroRising' were 'Caramel' and 'Death Wish', both released in 2017.",The first two songs released for 'Bop City 2: TerroRising' were 'Caramel' and 'Death Wish'.
-329,What roles has Gurnam Singh served?,"Table Title: List of Chief Ministers of Punjab (India) - Chief Minister of Punjab (Since 1966)
+fetaqa_74,Llama-2-70B,329,What roles has Gurnam Singh served?,"Table Title: List of Chief Ministers of Punjab (India) - Chief Minister of Punjab (Since 1966)
 Table:
 № | Name (birth–death); constituency | Portrait | Party (coalition with) | Party (coalition with) | Term of office | Term of office | Term of office | Elections (Vidhan Sabha) | Appointed by(Governor)
 5 | Giani Gurmukh Singh Musafir (1899–1976) MLC in Vidhan Parishad | - | - | Indian National Congress | 1 November 1966 | 8 March 1967 | 127 days | — (3rd) | Dharma Vira

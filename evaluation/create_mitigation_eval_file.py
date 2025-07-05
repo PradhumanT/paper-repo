@@ -1,3 +1,4 @@
+
 import json
 import csv
 from pathlib import Path
@@ -34,19 +35,23 @@ def create_mitigation_eval_file(model_name: str, dataset: str, num_points: int =
     for idx in common_idxs:
         ex = full_data[idx]
         rows.append({
-            "original_idx":               idx,
-            "question":                   ex.get("question", ""),
-            "table":                      ex.get("table", ""),
-            "ideal_answer":              ex.get("answer", ""),
-            "original_answer":           ex.get("model_output", ""),
-            "lftqa_mitigated_output":    lftqa_map[idx],
-            "mtraig_mitigated_output":   mtraig_map[idx]
+            "example_id":                ex.get("example_id", ""),
+            "original_model":           ex.get("model", ""),
+            "original_idx":             idx,
+            "question":                 ex.get("question", ""),
+            "table":                    ex.get("table", ""),
+            "ideal_answer":             ex.get("answer", ""),
+            "original_answer":          ex.get("model_output", ""),
+            "lftqa_mitigated_output":   lftqa_map[idx],
+            "mtraig_mitigated_output":  mtraig_map[idx]
         })
     # write JSON
     with json_path.open("w") as f_json:
         json.dump(rows, f_json, indent=2)
     # write CSV
     fieldnames = [
+        "example_id",
+        "original_model",
         "original_idx",
         "question",
         "table",
@@ -66,8 +71,8 @@ def create_mitigation_eval_file(model_name: str, dataset: str, num_points: int =
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create mitigation eval file (JSON and CSV) for human eval.")
-    parser.add_argument('--model_name', type=str, default="gpt-4o-mini", help='Model name (e.g., gpt-4o-mini)')
-    parser.add_argument('--dataset', type=str, default="fetaqa", help='Dataset name (e.g., fetaqa or qtsumm)')
+    parser.add_argument('--model_name', type=str, default="gpt-4o", help='Model name (e.g., gpt-4o-mini)')
+    parser.add_argument('--dataset', type=str, default="qtsumm", help='Dataset name (e.g., fetaqa or qtsumm)')
     parser.add_argument('--num_points', type=int, default=50, help='Number of examples to include (default: 50)')
     args = parser.parse_args()
-    create_mitigation_eval_file(args.model_name, args.dataset, args.num_points) 
+    create_mitigation_eval_file(args.model_name, args.dataset, args.num_points)

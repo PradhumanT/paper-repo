@@ -1,7 +1,5 @@
 # 🧪 Modular Detection-and-Mitigation Framework for Long-form Table QA
 
-**Official repository for the paper:**  
-**_Improving Factual Accuracy and Completeness in Long-form Table QA: A Modular Detection-and-Mitigation Pipeline_**
 
 This repository provides a modular, reproducible framework for evaluating and mitigating **faithfulness** and **completeness** in **Long-form Table Question Answering (LFTQA)**. It includes two complementary detection methods—**MT-RAIG** (claim-level detection of unfaithful content) and **G-Eval** (LLM-based evaluation of both faithfulness and completeness)—alongside novel mitigation and automated evaluation techniques tailored for LFTQA.
 
@@ -10,7 +8,7 @@ This repository provides a modular, reproducible framework for evaluating and mi
 ## 📁 Directory Structure
 
 ```
-official_repo/
+paper_repo/
 │
 ├── README.md
 ├── requirements.txt
@@ -26,7 +24,6 @@ official_repo/
 │   ├── analyze_fives_and_nonfives_geval.py
 │   ├── analyze_fives_and_nonfives_mtraig.py
 │   ├── compute_factual_claim_percentages.py
-│   ├── count_label_frequencies.py
 │   └── create_mitigation_eval_file.py
 │
 ├── mtraig/                    # MT-RAIG pipeline (faithfulness-focused)
@@ -82,6 +79,54 @@ official_repo/
   No action needed from the user.
 
 - **Preprocessed files** (e.g., model outputs with human scores) are available in `data/outputs/` and ready to be used in the pipeline.
+
+---
+
+## 👥 Human Annotation Files
+
+The `human_mitigation_eval/` directory contains all files related to human evaluation of mitigation outputs. This directory is organized as follows:
+
+```
+human_mitigation_eval/
+│
+├── raw/                       # Original files prepared for annotation
+│   ├── gpt-4o_fetaqa.csv     # FeTaQA dataset for GPT-4o model
+│   ├── gpt-4o_fetaqa.json    # JSON format of the same data
+│   ├── gpt-4o_qtsumm.csv     # QT-SUMM dataset for GPT-4o model
+│   └── gpt-4o_qtsumm.json    # JSON format of the same data
+│
+├── annotated/                 # Individual annotator submissions
+│   ├── annotator1/           # First annotator's evaluations
+│   │   ├── gpt-4o_fetaqa.csv
+│   │   └── gpt-4o_qtsumm.csv
+│   └── annotator2/           # Second annotator's evaluations
+│       ├── gpt-4o_fetaqa.csv
+│       └── gpt-4o_qtsumm.csv
+│
+├── consolidated_annotations/  # 🎯 FINAL ANNOTATED FILES
+│   ├── gpt-4o_fetaqa.csv     # Consolidated FeTaQA annotations
+│   └── gpt-4o_qtsumm.csv     # Consolidated QT-SUMM annotations
+│
+├── count_label_frequencies.py # Script to analyze annotation distributions
+└── calculate_agreement.py     # Script to compute inter-annotator agreement
+```
+
+### 📋 Key Points:
+
+- **`consolidated_annotations/`** contains the **final annotated files** that should be used for analysis
+- Files include both original and mitigated outputs for comparison
+- Annotations cover faithfulness (for both geval and mtraig_eval) and completeness (only for geval) for each example.
+- Inter-annotator agreement metrics are available through the provided scripts
+
+### 🔍 Using the Annotated Files:
+
+```bash
+# Analyze annotation distributions
+python human_mitigation_eval/count_label_frequencies.py
+
+# Calculate inter-annotator agreement
+python human_mitigation_eval/calculate_agreement.py
+```
 
 ---
 
@@ -170,14 +215,10 @@ python -m evaluation.create_mitigation_eval_file --model_name gpt-4o-mini --data
 
 ## 📌 Notes
 
-- All paths are relative to the `official_repo/` root.
+- All paths are relative to the `paper_repo/` root.
 - Checkpointing is implemented to support long-running experiments.
 - Script arguments and configurations are documented inline for ease of use.
 
 ---
 
-## 📬 Questions?
 
-For questions, issues, or contributions, feel free to open a GitHub issue or contact the maintainers.
-
----
