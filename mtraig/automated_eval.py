@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(mes
 
 MITIG_DIR   = Path("mtraig/mitigation_outputs")
 AE_CKPT_DIR = Path("mtraig/automated_eval_checkpoints")
-RESULTS_DIR = Path("results/mtraig_mitigation_summary")
+RESULTS_DIR = Path("results/mtraig_automated_eval")
 for p in (AE_CKPT_DIR, RESULTS_DIR):
     p.mkdir(exist_ok=True)
 
